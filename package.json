@@ -1,0 +1,25 @@
+{
+  "name": "node.js-graphql-proof-of-concept",
+  "version": "1.0.0",
+  "description": "Node.js and Graphql Proof of concept",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greshot/Node.js-Graphql-Proof-of-Concept.git"
+  },
+  "author": "Greshot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Greshot/Node.js-Graphql-Proof-of-Concept/issues"
+  },
+  "homepage": "https://github.com/Greshot/Node.js-Graphql-Proof-of-Concept#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  }
+}
